@@ -1,0 +1,15 @@
+{
+  "pages": {
+    "/": {
+      "title": "",
+      "viewPath": "ServerMaintenance/Main"
+    },
+    "/test": {
+      "title": "",
+      "viewPath": "test"
+    }
+  },
+  "sharedDocks": {
+    "cornerPriority": "top-bottom"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "custom": {},
+  "params": {
+    "value": "value"
+  },
+  "propConfig": {
+    "params.value": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 31,
+      "width": 247
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "height": 26,
+          "width": 236,
+          "x": 6,
+          "y": 3
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "path": "view.params.value"
+              },
+              "transforms": [
+                {
+                  "code": "\timport re\n\timport re\n\tpattern \u003d r\u0027UTC \\d{4}\u0027\n\tdatetime_info_cleaned \u003d re.sub(pattern, \u0027\u0027, value.split(\",\")[0].strip(\"[[\").strip())\n\treturn datetime_info_cleaned\n\t",
+                  "type": "script"
+                }
+              ],
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "style": {
+            "borderRadius": "4px",
+            "classes": "Framework/Card/Value",
+            "textAlign": "center"
+          }
+        },
+        "type": "ia.display.label"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

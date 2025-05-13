@@ -1,0 +1,1389 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "lblArchitectureHeader"
+            },
+            "position": {
+              "height": 0.0312,
+              "width": 0.1201,
+              "y": 0.074
+            },
+            "props": {
+              "text": "Architecture"
+            },
+            "type": "ia.display.label"
+          },
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "Label"
+                },
+                "position": {
+                  "height": 0.2645,
+                  "width": 0.2171
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5"
+                  },
+                  "text": "Gateway:"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Label_0"
+                },
+                "position": {
+                  "height": 0.0909,
+                  "width": 0.2,
+                  "y": 0.4635
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5",
+                    "fontSize": 12
+                  },
+                  "text": "Version:"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Label_1"
+                },
+                "position": {
+                  "height": 0.0992,
+                  "width": 0.2171,
+                  "y": 0.7934
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5",
+                    "fontSize": 12
+                  },
+                  "text": "UpTime:"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Label_2"
+                },
+                "position": {
+                  "height": 0.0992,
+                  "width": 0.2171,
+                  "y": 0.6198
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5",
+                    "fontSize": 12
+                  },
+                  "text": "License:"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "PieChart"
+                },
+                "position": {
+                  "height": 0.9167,
+                  "width": 0.2936,
+                  "x": 0.591,
+                  "y": 0.0357
+                },
+                "props": {
+                  "colors": [
+                    "#3366CC",
+                    "#EC4B3D",
+                    "#4FC86C",
+                    "#00A9C6",
+                    "#E69300"
+                  ],
+                  "data": [
+                    {
+                      "count": 36,
+                      "flavor": "Pumpkin"
+                    },
+                    {
+                      "count": 17,
+                      "flavor": "Pecan"
+                    },
+                    {
+                      "count": 14,
+                      "flavor": "Apple"
+                    },
+                    {
+                      "count": 10,
+                      "flavor": "Sweet Potato"
+                    },
+                    {
+                      "count": 9,
+                      "flavor": "Chocolate"
+                    }
+                  ],
+                  "labels": {
+                    "showName": false,
+                    "showValue": false
+                  },
+                  "legend": {
+                    "fontSize": 1,
+                    "icon": {
+                      "enabled": false
+                    }
+                  },
+                  "showLabels": false,
+                  "showLegend": false,
+                  "title": "CPU",
+                  "titleColor": "#D5D5D5",
+                  "valueFormat": {
+                    "showPercentSymbol": false,
+                    "showValueAsPercent": false
+                  }
+                },
+                "type": "ia.chart.pie"
+              }
+            ],
+            "meta": {
+              "name": "cntHeader_1"
+            },
+            "position": {
+              "height": 0.07,
+              "width": 0.3,
+              "y": 0.104
+            },
+            "props": {
+              "mode": "percent",
+              "style": {
+                "backgroundColor": "#2B2B2B"
+              }
+            },
+            "type": "ia.container.coord"
+          },
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "Label_0"
+                },
+                "position": {
+                  "height": 0.0909,
+                  "width": 0.3064,
+                  "x": 0.0085,
+                  "y": 0.0394
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5",
+                    "fontSize": 12
+                  },
+                  "text": "Process Id"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Label_1"
+                },
+                "position": {
+                  "height": 0.0992,
+                  "width": 0.4128,
+                  "x": 0.0383,
+                  "y": 0.335
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5",
+                    "fontSize": 12
+                  },
+                  "text": "Java Version"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Label_2"
+                },
+                "position": {
+                  "height": 0.0992,
+                  "width": 0.4766,
+                  "x": 0.017,
+                  "y": 0.1844
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5",
+                    "fontSize": 12
+                  },
+                  "text": "Operating System"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Label_3"
+                },
+                "position": {
+                  "height": 0.0992,
+                  "width": 0.4128,
+                  "x": 0.0383,
+                  "y": 0.4867
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5",
+                    "fontSize": 12
+                  },
+                  "text": "Local Time"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Label_4"
+                },
+                "position": {
+                  "height": 0.0992,
+                  "width": 0.4128,
+                  "x": 0.034,
+                  "y": 0.7739
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5",
+                    "fontSize": 12
+                  },
+                  "text": "Detected NICs"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Label_5"
+                },
+                "position": {
+                  "height": 0.0973,
+                  "width": 0.6255,
+                  "x": 0.0255,
+                  "y": 0.6151
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5",
+                    "fontSize": 12
+                  },
+                  "text": "Available Disk Space"
+                },
+                "type": "ia.display.label"
+              }
+            ],
+            "meta": {
+              "name": "cntEnvironment"
+            },
+            "position": {
+              "height": 0.18,
+              "width": 0.3,
+              "x": 0.68,
+              "y": 0.104
+            },
+            "props": {
+              "mode": "percent",
+              "style": {
+                "backgroundColor": "#2B2B2B"
+              }
+            },
+            "type": "ia.container.coord"
+          },
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "Label_0"
+                },
+                "position": {
+                  "height": 0.0909,
+                  "width": 0.3447,
+                  "x": 0.0255,
+                  "y": 0.4743
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5",
+                    "fontSize": 12
+                  },
+                  "text": "Redundancy"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Label_1"
+                },
+                "position": {
+                  "height": 0.0992,
+                  "width": 0.2171,
+                  "y": 0.7934
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5",
+                    "fontSize": 12
+                  },
+                  "text": "Tags"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Label_2"
+                },
+                "position": {
+                  "height": 0.0992,
+                  "width": 0.2171,
+                  "x": 0.0043,
+                  "y": 0.6956
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5",
+                    "fontSize": 12
+                  },
+                  "text": "SFCs"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Label_3"
+                },
+                "position": {
+                  "height": 0.0909,
+                  "width": 0.2,
+                  "y": 0.5773
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5",
+                    "fontSize": 12
+                  },
+                  "text": "Reports"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Label_4"
+                },
+                "position": {
+                  "height": 0.0909,
+                  "width": 0.2,
+                  "x": 0.0297,
+                  "y": 0.3659
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5",
+                    "fontSize": 12
+                  },
+                  "text": "Performance"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Label_5"
+                },
+                "position": {
+                  "height": 0.0909,
+                  "width": 0.2,
+                  "x": 0.0085,
+                  "y": 0.2467
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5",
+                    "fontSize": 12
+                  },
+                  "text": "Modules"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Label_6"
+                },
+                "position": {
+                  "height": 0.0909,
+                  "width": 0.3872,
+                  "x": 0.0128,
+                  "y": 0.1274
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5",
+                    "fontSize": 12
+                  },
+                  "text": "EAM Role"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Label_7"
+                },
+                "position": {
+                  "height": 0.0909,
+                  "width": 0.4426,
+                  "x": 0.017,
+                  "y": 0.0244
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5",
+                    "fontSize": 12
+                  },
+                  "text": "Alarm Pipelines"
+                },
+                "type": "ia.display.label"
+              }
+            ],
+            "meta": {
+              "name": "cntSystems"
+            },
+            "position": {
+              "height": 0.18,
+              "width": 0.3,
+              "x": 0.6825,
+              "y": 0.3242
+            },
+            "props": {
+              "mode": "percent",
+              "style": {
+                "backgroundColor": "#2B2B2B"
+              }
+            },
+            "type": "ia.container.coord"
+          },
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "Label"
+                },
+                "position": {
+                  "height": 0.2645,
+                  "width": 0.2171
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5"
+                  },
+                  "text": "Gateway:"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Label_0"
+                },
+                "position": {
+                  "height": 0.0909,
+                  "width": 0.2,
+                  "y": 0.4635
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5",
+                    "fontSize": 12
+                  },
+                  "text": "Version:"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Label_1"
+                },
+                "position": {
+                  "height": 0.0992,
+                  "width": 0.2171,
+                  "y": 0.7934
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5",
+                    "fontSize": 12
+                  },
+                  "text": "UpTime:"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Label_2"
+                },
+                "position": {
+                  "height": 0.0992,
+                  "width": 0.2171,
+                  "y": 0.6198
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5",
+                    "fontSize": 12
+                  },
+                  "text": "License:"
+                },
+                "type": "ia.display.label"
+              }
+            ],
+            "meta": {
+              "name": "cntHeader_3"
+            },
+            "position": {
+              "height": 0.07,
+              "width": 0.3,
+              "x": 0.369,
+              "y": 0.104
+            },
+            "props": {
+              "mode": "percent",
+              "style": {
+                "backgroundColor": "#2B2B2B"
+              }
+            },
+            "type": "ia.container.coord"
+          },
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "Label"
+                },
+                "position": {
+                  "height": 0.2645,
+                  "width": 0.2171
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5"
+                  },
+                  "text": "Gateway:"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Label_0"
+                },
+                "position": {
+                  "height": 0.0909,
+                  "width": 0.2,
+                  "y": 0.4635
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5",
+                    "fontSize": 12
+                  },
+                  "text": "Version:"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Label_1"
+                },
+                "position": {
+                  "height": 0.0992,
+                  "width": 0.2171,
+                  "y": 0.7934
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5",
+                    "fontSize": 12
+                  },
+                  "text": "UpTime:"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Label_2"
+                },
+                "position": {
+                  "height": 0.0992,
+                  "width": 0.2171,
+                  "y": 0.6198
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5",
+                    "fontSize": 12
+                  },
+                  "text": "License:"
+                },
+                "type": "ia.display.label"
+              }
+            ],
+            "meta": {
+              "name": "cntHeader_4"
+            },
+            "position": {
+              "height": 0.0693,
+              "width": 0.6718,
+              "y": 0.1947
+            },
+            "props": {
+              "mode": "percent",
+              "style": {
+                "backgroundColor": "#2B2B2B"
+              }
+            },
+            "type": "ia.container.coord"
+          },
+          {
+            "meta": {
+              "name": "lblConnectionsHeader"
+            },
+            "position": {
+              "height": 0.0312,
+              "width": 0.1201,
+              "x": 0.0051,
+              "y": 0.2818
+            },
+            "props": {
+              "text": "Connections"
+            },
+            "type": "ia.display.label"
+          },
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "lblDatabase"
+                },
+                "position": {
+                  "height": 0.2645,
+                  "width": 0.3787,
+                  "x": 0.4722,
+                  "y": 0.0553
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5"
+                  },
+                  "text": "Databases"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "lblDatabaseConnected"
+                },
+                "position": {
+                  "height": 0.1528,
+                  "width": 0.4426,
+                  "x": 0.5359,
+                  "y": 0.5033
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5",
+                    "fontSize": 12
+                  },
+                  "text": "connected"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Image"
+                },
+                "position": {
+                  "height": 0.6944,
+                  "width": 0.4,
+                  "x": 0.0125,
+                  "y": 0.1818
+                },
+                "props": {
+                  "fit": {
+                    "mode": "contain"
+                  },
+                  "source": "/system/images/Builtin/icons/White/plant-configuration.png"
+                },
+                "type": "ia.display.image"
+              }
+            ],
+            "meta": {
+              "name": "cntDatabase"
+            },
+            "position": {
+              "height": 0.07,
+              "width": 0.3,
+              "x": 0.0089,
+              "y": 0.3264
+            },
+            "props": {
+              "mode": "percent",
+              "style": {
+                "backgroundColor": "#2B2B2B"
+              }
+            },
+            "type": "ia.container.coord"
+          },
+          {
+            "meta": {
+              "name": "lblEnvironment"
+            },
+            "position": {
+              "height": 0.0312,
+              "width": 0.1201,
+              "x": 0.6818,
+              "y": 0.0701
+            },
+            "props": {
+              "text": "Environment"
+            },
+            "type": "ia.display.label"
+          },
+          {
+            "meta": {
+              "name": "lblSystemsHeader"
+            },
+            "position": {
+              "height": 0.0312,
+              "width": 0.1201,
+              "x": 0.678,
+              "y": 0.2867
+            },
+            "props": {
+              "text": "Systems"
+            },
+            "type": "ia.display.label"
+          },
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "lblDesigner"
+                },
+                "position": {
+                  "height": 0.2645,
+                  "width": 0.5957,
+                  "x": 0.3657,
+                  "y": 0.0558
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5"
+                  },
+                  "text": "Designer Sessions"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "lblDesignerConnected"
+                },
+                "position": {
+                  "height": 0.1528,
+                  "width": 0.2511,
+                  "x": 0.7275,
+                  "y": 0.5052
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5",
+                    "fontSize": 12
+                  },
+                  "text": "Open"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Image"
+                },
+                "position": {
+                  "height": 0.6944,
+                  "width": 0.4,
+                  "x": 0.0125,
+                  "y": 0.1818
+                },
+                "props": {
+                  "fit": {
+                    "mode": "contain"
+                  },
+                  "source": "/system/images/Builtin/icons/White/plant-configuration.png"
+                },
+                "type": "ia.display.image"
+              }
+            ],
+            "meta": {
+              "name": "cntDesigner"
+            },
+            "position": {
+              "height": 0.07,
+              "width": 0.3,
+              "x": 0.3255,
+              "y": 0.3274
+            },
+            "props": {
+              "mode": "percent",
+              "style": {
+                "backgroundColor": "#2B2B2B"
+              }
+            },
+            "type": "ia.container.coord"
+          },
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "lblGateway"
+                },
+                "position": {
+                  "height": 0.2645,
+                  "width": 0.6213,
+                  "x": 0.3586,
+                  "y": 0.1253
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5"
+                  },
+                  "text": "Gateway Network Connections"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "lblGatewayconnected"
+                },
+                "position": {
+                  "height": 0.1528,
+                  "width": 0.4383,
+                  "x": 0.5317,
+                  "y": 0.5939
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5",
+                    "fontSize": 12
+                  },
+                  "text": "connected"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Image"
+                },
+                "position": {
+                  "height": 0.6944,
+                  "width": 0.4,
+                  "x": 0.0125,
+                  "y": 0.1818
+                },
+                "props": {
+                  "fit": {
+                    "mode": "contain"
+                  },
+                  "source": "/system/images/Builtin/icons/White/plant-configuration.png"
+                },
+                "type": "ia.display.image"
+              }
+            ],
+            "meta": {
+              "name": "cntGatewayNetworkconnections"
+            },
+            "position": {
+              "height": 0.07,
+              "width": 0.3,
+              "x": 0.328,
+              "y": 0.423
+            },
+            "props": {
+              "mode": "percent",
+              "style": {
+                "backgroundColor": "#2B2B2B"
+              }
+            },
+            "type": "ia.container.coord"
+          },
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "lblDevices"
+                },
+                "position": {
+                  "height": 0.2645,
+                  "width": 0.3787,
+                  "x": 0.4722,
+                  "y": 0.0553
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5"
+                  },
+                  "text": "Devices"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "lblDevicesConnected"
+                },
+                "position": {
+                  "height": 0.1528,
+                  "width": 0.3745,
+                  "x": 0.604,
+                  "y": 0.5033
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5",
+                    "fontSize": 12
+                  },
+                  "text": "Connected"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Image"
+                },
+                "position": {
+                  "height": 0.6944,
+                  "width": 0.4,
+                  "x": 0.0125,
+                  "y": 0.1818
+                },
+                "props": {
+                  "fit": {
+                    "mode": "contain"
+                  },
+                  "source": "/system/images/Builtin/icons/White/plant-configuration.png"
+                },
+                "type": "ia.display.image"
+              }
+            ],
+            "meta": {
+              "name": "cntDevices"
+            },
+            "position": {
+              "height": 0.07,
+              "width": 0.3,
+              "x": 0.0115,
+              "y": 0.422
+            },
+            "props": {
+              "mode": "percent",
+              "style": {
+                "backgroundColor": "#2B2B2B"
+              }
+            },
+            "type": "ia.container.coord"
+          },
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "lblPerspective"
+                },
+                "position": {
+                  "height": 0.3521,
+                  "width": 0.7064,
+                  "x": 0.2849,
+                  "y": 0.0558
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5"
+                  },
+                  "text": "Perspective Sessions"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "lblPerspectiveConnected"
+                },
+                "position": {
+                  "height": 0.1528,
+                  "width": 0.2511,
+                  "x": 0.7275,
+                  "y": 0.5052
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5",
+                    "fontSize": 12
+                  },
+                  "text": "Open"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Image"
+                },
+                "position": {
+                  "height": 0.6944,
+                  "width": 0.4,
+                  "x": 0.0125,
+                  "y": 0.1818
+                },
+                "props": {
+                  "fit": {
+                    "mode": "contain"
+                  },
+                  "source": "/system/images/Builtin/icons/White/plant-configuration.png"
+                },
+                "type": "ia.display.image"
+              }
+            ],
+            "meta": {
+              "name": "cntPerspective"
+            },
+            "position": {
+              "height": 0.07,
+              "width": 0.3,
+              "x": 0.328,
+              "y": 0.5108
+            },
+            "props": {
+              "mode": "percent",
+              "style": {
+                "backgroundColor": "#2B2B2B"
+              }
+            },
+            "type": "ia.container.coord"
+          },
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "lblOPC"
+                },
+                "position": {
+                  "height": 0.2645,
+                  "width": 0.6255,
+                  "x": 0.3274,
+                  "y": 0.0547
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5"
+                  },
+                  "text": "OPC Connections"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "lblOPCConnected"
+                },
+                "position": {
+                  "height": 0.1528,
+                  "width": 0.4043,
+                  "x": 0.5742,
+                  "y": 0.5033
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5",
+                    "fontSize": 12
+                  },
+                  "text": "Connected"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Image"
+                },
+                "position": {
+                  "height": 0.6944,
+                  "width": 0.4,
+                  "x": 0.0125,
+                  "y": 0.1818
+                },
+                "props": {
+                  "fit": {
+                    "mode": "contain"
+                  },
+                  "source": "/system/images/Builtin/icons/White/plant-configuration.png"
+                },
+                "type": "ia.display.image"
+              }
+            ],
+            "meta": {
+              "name": "cntOPC"
+            },
+            "position": {
+              "height": 0.07,
+              "width": 0.3,
+              "x": 0.0115,
+              "y": 0.5098
+            },
+            "props": {
+              "mode": "percent",
+              "style": {
+                "backgroundColor": "#2B2B2B"
+              }
+            },
+            "type": "ia.container.coord"
+          },
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "lblVision"
+                },
+                "position": {
+                  "height": 0.2645,
+                  "width": 0.5106,
+                  "x": 0.3402,
+                  "y": 0.0558
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5"
+                  },
+                  "text": "Vision Clients"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "lblVisionConnected"
+                },
+                "position": {
+                  "height": 0.1528,
+                  "width": 0.2511,
+                  "x": 0.7275,
+                  "y": 0.5052
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5",
+                    "fontSize": 12
+                  },
+                  "text": "open"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Image"
+                },
+                "position": {
+                  "height": 0.6944,
+                  "width": 0.4,
+                  "x": 0.0125,
+                  "y": 0.1818
+                },
+                "props": {
+                  "fit": {
+                    "mode": "contain"
+                  },
+                  "source": "/system/images/Builtin/icons/White/plant-configuration.png"
+                },
+                "type": "ia.display.image"
+              }
+            ],
+            "meta": {
+              "name": "cntVision"
+            },
+            "position": {
+              "height": 0.07,
+              "width": 0.3,
+              "x": 0.3319,
+              "y": 0.5947
+            },
+            "props": {
+              "mode": "percent",
+              "style": {
+                "backgroundColor": "#2B2B2B"
+              }
+            },
+            "type": "ia.container.coord"
+          },
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "lblStore"
+                },
+                "position": {
+                  "height": 0.2645,
+                  "width": 0.5957,
+                  "x": 0.3401,
+                  "y": 0.0547
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5"
+                  },
+                  "text": "Store \u0026 Forward"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "lblStorequarantied"
+                },
+                "position": {
+                  "height": 0.1528,
+                  "width": 0.4723,
+                  "x": 0.5061,
+                  "y": 0.5033
+                },
+                "props": {
+                  "style": {
+                    "color": "#D5D5D5",
+                    "fontSize": 12
+                  },
+                  "text": "stores quarantied"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Image"
+                },
+                "position": {
+                  "height": 0.6944,
+                  "width": 0.4,
+                  "x": 0.0125,
+                  "y": 0.1818
+                },
+                "props": {
+                  "fit": {
+                    "mode": "contain"
+                  },
+                  "source": "/system/images/Builtin/icons/White/plant-configuration.png"
+                },
+                "type": "ia.display.image"
+              }
+            ],
+            "meta": {
+              "name": "cntStoreForward"
+            },
+            "position": {
+              "height": 0.07,
+              "width": 0.3,
+              "x": 0.0153,
+              "y": 0.5937
+            },
+            "props": {
+              "mode": "percent",
+              "style": {
+                "backgroundColor": "#2B2B2B"
+              }
+            },
+            "type": "ia.container.coord"
+          },
+          {
+            "meta": {
+              "name": "lblServer"
+            },
+            "position": {
+              "height": 0.0312,
+              "width": 0.1201,
+              "x": 0.0026,
+              "y": 0.0155
+            },
+            "props": {
+              "text": "Server:"
+            },
+            "type": "ia.display.label"
+          },
+          {
+            "meta": {
+              "name": "Dropdown"
+            },
+            "position": {
+              "height": 0.0351,
+              "width": 0.3269,
+              "x": 0.1047,
+              "y": 0.0137
+            },
+            "propConfig": {
+              "props.value": {
+                "onChange": {
+                  "enabled": null,
+                  "script": "\t\n\t#Number of Designers Open\n    session_filter \u003d {\"clientType\": \"designer\"}\t\t    \n    session_info \u003d system.util.getSessionInfo(sessionFilter\u003dsession_filter)\t\t  \n    if session_info is not None:\t\t        \n        active_session_count \u003d len(session_info)\t\n        self.parent.getChild(\"cntDesigner\").getChild(\"lblDesignerConnected\").props.text\u003d str(active_session_count)+\" \"+str(\"Open\")       \n    else:\t        \n    \tself.parent.getChild(\"cntDesigner\").getChild(\"lblDesignerConnected\").props.text\u003d \"0\"+\" \"+str(\"Open\")     \n    \n    #OPCServers\n    notconnectedcount\u003d0\n    allOPCServers \u003d system.opc.getServers()\n    OPCServerCount\u003dlen(allOPCServers)\n    for server in allOPCServers:\n    \tstatus\u003dsystem.opc.getServerState(server)\n    \tif status !\u003d \"CONNECTED\":\n    \t\tnotconnectedcount\u003dnotconnectedcount+1\n    connected\u003dOPCServerCount-notconnectedcount\n    self.parent.getChild(\"cntOPC\").getChild(\"lblOPCConnected\").props.text \u003d str(connected)+ \"/\"+str(OPCServerCount)+\" \"+\"Connected\"\n    \n    #Perspective Sessions\n    sessions \u003d system.perspective.getSessionInfo()\n    clientcount\u003d0  \n    for session in sessions:\n    \tclient\u003d session.get(\"sessionScope\")\n    \tif client !\u003d \u0027designer\u0027:\n    \t\tclientcount\u003dclientcount+1\n    self.parent.getChild(\"cntPerspective\").getChild(\"lblPerspectiveConnected\").props.text \u003d str(clientcount)+\" \"+str(\"Open\") \n    \n    \n    #Database\n    connections \u003d system.db.getConnections()\n    connections\u003dsystem.dataset.toPyDataSet(connections)\n    totalconnected \u003d len(connections)\n    active\u003d0\n    for row in range(len(connections)):\n        connection_status \u003d connections[row][\u0027Status\u0027]\n        if connection_status:\n            active\u003dactive+1\n    self.parent.getChild(\"cntDatabase\").getChild(\"lblDatabaseConnected\").props.text \u003d str(active)+ \"/\"+ str(totalconnected)+\" \"+\"connected\"\n    \n    #Devices\n    device \u003d system.device.listDevices()\n    device\u003dsystem.dataset.toPyDataSet(device)\t\n    devicecount\u003dlen(device)\n    self.parent.getChild(\"cntDevices\").getChild(\"lblDevicesConnected\").props.text \u003d str(devicecount)+\" \"+\"enabled\"\n    \n    #Gateway Network Servers\n    allServers \u003d system.net.getRemoteServers()\n    runningServers \u003d system.net.getRemoteServers(True)\n    allServers\u003dlen(allServers)\n    runningServers\u003dlen(runningServers)\n    self.parent.getChild(\"cntGatewayNetworkconnections\").getChild(\"lblGatewayconnected\").props.text \u003d str(runningServers)+\u0027/\u0027+str(allServers )+\u0027 \u0027+\u0027connections\u0027\n    \n    #Store and Forward\n    \u0027\u0027\u0027\n    activities \u003d system.util.getSFCachedMessages()\n    activities \u003d len(activities)\n    self.parent.getChild(\"cntStoreForward\").getChild(\"lblStorequarantied\").props.text \u003d str(activities)\n    \u0027\u0027\u0027"
+                }
+              }
+            },
+            "props": {
+              "options": [
+                {
+                  "label": "Development",
+                  "value": "Development"
+                },
+                {
+                  "label": "Quality",
+                  "value": "Quality"
+                }
+              ]
+            },
+            "type": "ia.input.dropdown"
+          }
+        ],
+        "meta": {
+          "name": "CoordinateContainer"
+        },
+        "position": {
+          "breakpoints": [
+            {
+              "colIndex": 1,
+              "name": "sm",
+              "order": 1,
+              "rowIndex": 0,
+              "span": 1
+            },
+            {
+              "colIndex": 0,
+              "name": "md",
+              "order": 1,
+              "rowIndex": 0,
+              "span": 12
+            },
+            {
+              "colIndex": 0,
+              "name": "lg",
+              "order": 0,
+              "rowIndex": 0,
+              "span": 12
+            }
+          ],
+          "height": 1025
+        },
+        "props": {
+          "mode": "percent"
+        },
+        "type": "ia.container.coord"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.column"
+  }
+}
